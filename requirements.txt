@@ -1,0 +1,4 @@
+import discord==0.16.12
+import asyncio==0.16.12
+import commands==0.16.12
+import bot==0.16.12
