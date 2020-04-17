@@ -1,4 +1,4 @@
 discord==0.16.12
 asyncio==0.16.12
 commands==0.16.12
-ot==0.16.12
+bot==0.16.12
