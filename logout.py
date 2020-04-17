@@ -1,5 +1,6 @@
 import discord
 import asyncio
+import os
 from discord.ext import commands
 from discord.ext.commands import bot
 
@@ -62,4 +63,5 @@ async def 매니저(ctx):
   embed.set_footer(text="매니저 추가 모집중")
   await ctx.send(embed=embed)
   
-bot.run('NzAwMjM0MDMyNTcwNDMzNTU3.Xpg9Hw.ti7K1TIrCeGUEf17lLeEYo1Zw9E')
+access_token = os.environ["BOT_TOKEN"]
+bot.run('access_token')
